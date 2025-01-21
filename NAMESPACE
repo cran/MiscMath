@@ -1,0 +1,6 @@
+importFrom("stats", "var", "lm", "predict", "runif")
+importFrom("graphics", "abline", "par", "title")
+importFrom("randomForest", "randomForest")
+export("LawofCosines", "LawofSines", "gcd", "DecToBin", "MaxRunLength", "microLASSO", "RNGtest", "rAlias")
+useDynLib("MiscMath", .registration = TRUE, .fixes = "C_")
+
