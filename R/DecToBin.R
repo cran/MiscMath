@@ -4,7 +4,7 @@ DecToBin <- function(x, m = 32, format = "character") {
      b <- matrix(0, nrow = n, ncol = m)
      for (i in 1:m) {
          x2 <- x*2
-         b[, i] <- pmax(x2, 1) > 1
+         b[, i] <- (x2 >= 1)
          x <- x2 - floor(x2)
      }
      if (format == "character") {
