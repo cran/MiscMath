@@ -1,7 +1,7 @@
 Package: MiscMath
 Type: Package
 Title: Miscellaneous Mathematical Tools
-Version: 1.1
+Version: 1.2
 Authors@R: c(person("W.J.", "Braun", role = c("aut", "cre"),
              email = "john.braun@ubc.ca"))
 Description: Some basic math calculators for finding angles for triangles and for finding the greatest common divisor of two numbers and so on.
@@ -11,6 +11,6 @@ Depends: randomForest, numbers
 NeedsCompilation: yes
 Author: W.J. Braun [aut, cre]
 Maintainer: W.J. Braun <john.braun@ubc.ca>
-Packaged: 2025-04-13 04:56:41 UTC; peterhall
+Packaged: 2026-09-26 19:31:04 UTC; johbraun
 Repository: CRAN
-Date/Publication: 2025-04-13 05:30:01 UTC
+Date/Publication: 2026-09-27 02:30:14 UTC
